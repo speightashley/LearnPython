@@ -12,3 +12,12 @@ print(len(odd))
 
 print()
 print("mississippi".count("iss"))
+
+even.extend(odd)
+print(id(even))
+print(even)
+another_even = even
+print(another_even)
+even.sort(reverse=True)
+print(id(even))
+print(even)
