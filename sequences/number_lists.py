@@ -1,5 +1,12 @@
 even = [2, 4, 6, 8]
 odd = [1, 3, 5, 7, 9]
+empty_list = []
+
+numbers = even + odd
+sorted_numbers = sorted(numbers)
+print(sorted_numbers)
+print(numbers)
+
 
 print(min(even))
 print(max(even))
