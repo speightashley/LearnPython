@@ -7,6 +7,7 @@ menu = [
     ["spam", "bacon", "sausage", "spam"],
     ["spam", "sausage", "spam", "bacon", "spam", "tomato", "spam"],
     ["spam", "egg", "spam", "spam", "bacon", "spam"],
+    ["spam"]
 ]
 
 for meal in menu:
