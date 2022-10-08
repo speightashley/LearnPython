@@ -12,10 +12,13 @@ def is_palindrome(string):
     return string[::-1].casefold() == string.casefold()
 
 
-word = input("Please enter a word to check: ")
-if is_palindrome(word):
-    print("{} is a palindrome".format(word))
-else:
-    print("{} is not a palindrome".format(word))
+# word = input("Please enter a word to check: ")
+# if is_palindrome(word):
+#     print("{} is a palindrome".format(word))
+# else:
+#     print("{} is not a palindrome".format(word))
+#
+# print()
 
-print()
+answer = multiply(18, 3)
+print(answer)
