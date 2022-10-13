@@ -1,4 +1,4 @@
-def multiply(a, b):
+def multiply(a: float, b: float) -> float:
     """
     Although this function is intended to multiply 2 numbers,
     you can also use it to multiply a sequence.  If you pass
@@ -12,11 +12,7 @@ def multiply(a, b):
     return a * b  # TODO just testng the todo feature
 
 
-answer = multiply(2, 4)
-print(answer)
-
-
-def is_palindrome(string):
+def is_palindrome(string: str) -> bool:
     #  backwards = string[::-1]
     #  return backwards == string
     return string[::-1].casefold() == string.casefold()
@@ -30,5 +26,24 @@ def is_palindrome(string):
 #
 # print()
 
-answer = multiply(18, 3)
-print(answer)
+def fibonacci(n: int) -> int:
+    """
+    Return the `n` th fibonacci number, for positive `n` .
+    :param n:
+    :return:
+    """
+    if 0 <= n <= 1:
+        return n
+
+    n_minus1, n_minus2 = 1, 0
+    result = None
+    for f in range(n - 1):
+        result = n_minus2 + n_minus1
+        n_minus2 = n_minus1
+        n_minus1 = result
+    return result
+
+
+for i in range(36):
+    print(i, fibonacci(i))
+
