@@ -15,6 +15,19 @@ def fizz_buzz(number: int) -> str:
         return str(number)
 
 
-for i in range(1, 101):
-    print(fizz_buzz(i))
+computer = 1
+
+for i in range(1, 50):
+    print(fizz_buzz(computer))
+    user_guess = fizz_buzz(computer + 1)
+    # user_guess = input("What's your answer? ")
+    if user_guess == fizz_buzz(computer + 1):
+        computer += 2
+        continue
+    elif user_guess != fizz_buzz(computer + 1):
+        print("You got it wrong")
+        break
+    break
+else:
+    print("Well done, you reached {}".format(computer + 1))
 
