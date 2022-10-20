@@ -12,6 +12,7 @@ def add_shopping_item(data: dict, items: str, amount: int) -> None:
     data[items] = data.setdefault(item, 0) + amount
 
 
+new_dict = {}
 display_dict = {}
 
 for index, key in enumerate(recipes):
