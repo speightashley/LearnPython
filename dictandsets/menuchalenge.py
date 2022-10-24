@@ -1,6 +1,6 @@
 choice = "-"  # initialise choice to something invalid
 while choice != "0":
-    if choice in "12345":
+    if choice in set("12345"):
         print("You chose {}".format(choice))
     else:
         print("Please choose your option from the list below:")
