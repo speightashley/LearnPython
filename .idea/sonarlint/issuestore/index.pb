@@ -37,8 +37,6 @@ F
 textfiles/stripping.py,d/b/dbb3a10c96c1889c8a04442c1df9e0fc4c358c4f
 F
 textfiles/read_poem.py,b/9/b9eda4d2ab11087b0080e64d0f44e84c8332bbba
-F
-textfiles/countries.py,5/3/535b332729414c8dc6b933c9a06b4e09dd97ad5e
 I
 textfiles/save_flowers.py,2/2/223b87ca2d227325c8176aa5cb9a98e6607ba4c9
 C
