@@ -43,3 +43,23 @@ C
 textfiles/test.json,6/9/6929ff7ef0abe0dfddc589a13c372431d3c4ff2a
 P
  textfiles/simple_json_example.py,e/4/e4e9f0e84b3fd327503d104ce9809012e30a5c45
+R
+"textfiles/temperature_anomaly.json,2/0/206c78528d5f5deb42340036df1dc8a0f6e2404b
+I
+textfiles/global_temps.py,b/8/b8eb958f834e9f06bd73c6ae54b99e646a271b9b
+F
+textfiles/countries.py,5/3/535b332729414c8dc6b933c9a06b4e09dd97ad5e
+P
+ textfiles/OlympicMedals_2020.csv,b/1/b1b445a366c9da7015518841702590c96c9c5e8f
+C
+textfiles/medals.py,7/4/745699f6e8452fc53a93dc061e2f5b89e29d84d4
+L
+textfiles/country_dialect.py,5/d/5d955f99a28b48e705030e6fd26bd844deadc882
+K
+textfiles/cereal_grains.csv,8/4/84f6013a156735a05a6dbebae740470cfc7fdc2f
+C
+textfiles/cereal.py,8/d/8d6b58f40dc0d48e9704f700243516939d39cd4c
+F
+textfiles/invoices.csv,3/4/34fb02c9494cb618f281e8a9699dd42264ce01a1
+F
+textfiles/invoicing.py,8/f/8fa92c78feb8cfe5a57eba6c98f7adf5869f4b41
